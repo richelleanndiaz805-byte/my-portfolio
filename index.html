@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">My Portfolio <span>♡</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#personal">Personal Info</a>
+      <a href="#activities">Activities</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero section" id="home">
+      <div class="hero-text">
+        <span class="small-label">WELCOME TO MY LITTLE SPACE ☁️</span>
+        <h1>Hello, I'm <span class="blue-text">Richelle!</span></h1>
+        <h2>A student with dreams and creativity ✨</h2>
+        <p>
+          Welcome to my portfolio! Here you can get to know me,
+          learn a little about my life.
+        </p>
+        <a class="button" href="#about">Get to know me ♡</a>
+      </div>
+
+      <div class="profile-frame">
+        <div class="sparkle sparkle-one">✦</div>
+        <div class="sparkle sparkle-two">♡</div>
+        <img src="me.jpg"
+             alt="My profile picture"
+             class="profile-picture">
+        <div class="photo-caption">me, my self, and I☁️</div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="section" id="about">
+      <div class="section-heading">
+        <span class="small-label">A LITTLE INTRODUCTION</span>
+        <h2>About <span class="blue-text">Me</span> ♡</h2>
+      </div>
+
+      <div class="about-card">
+        <div class="about-icon">🌷</div>
+        <p>
+          Hiii! I am Richelle, Welcome to my little corner of the internet! 💻✨ Currently surviving college with 10% motivation, 20% confidence, and 70% “kaya pa 'to.” Still figuring life out, pero laban lang kasi wala naman akong choice. 😭😭😭</p>
+      </div>
+    </section>
+
+    <!-- PERSONAL INFORMATION -->
+    <section class="section" id="personal">
+      <div class="section-heading">
+        <span class="small-label">THE BASICS ABOUT ME</span>
+        <h2>Personal <span class="blue-text">Information</span> 🩵</h2>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <span class="info-icon"></span>
+          <div>
+            <h3>Full Name</h3>
+            <p>Richelle Ann C. Diaz</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <span class="info-icon"></span>
+          <div>
+            <h3>Course</h3>
+            <p>Bachelor of Science in Information Technology</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <span class="info-icon"></span>
+          <div>
+            <h3>School</h3>
+            <p>Pambayang Dalubhasaan ng Marilao</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <span class="info-icon"></span>
+          <div>
+            <h3>Hobbies</h3>
+            <p>Listening to music, watching movies, and exploring new things</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <span class="info-icon"></span>
+          <div>
+            <h3>Dream</h3>
+            <p>To achieve my goals and make my family proud</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <span class="info-icon"></span>
+          <div>
+            <h3>Favorite Quote</h3>
+            <p>Believe in yourself and keep going!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCHOOL ACTIVITIES -->
+    <section class="section activities-section" id="activities">
+      <div class="section-heading">
+        <h2>My<span class="blue-text">Activities</span> 📚</h2>     
+      </div>
+
+      <div class="activities-grid">
+
+        <!-- ACTIVITY 1: Palitan ang filename ayon sa ZIP mo -->
+        <article class="activity-card">
+           <p>ACTIVITY 1</p>
+          <a class="download-button"
+             href="oct 6.zip"
+             download>
+            <span>📦</span> Download ZIP
+          </a>
+        </article>
+
+        <!-- ACTIVITY 2 -->
+        <article class="activity-card">
+          <p>ACTIVITY 2</p>
+          <a class="download-button"
+             href="sep 29.zip"
+             download>
+            <span>📦</span> Download ZIP
+          </a>
+        </article>
+
+        <!-- ACTIVITY 3 -->
+        <article class="activity-card">
+<p>ACTIVITY 3</p>
+          <a class="download-button"
+             href="sept 15.zip"
+             download>
+            <span>📦</span> Download ZIP
+          </a>
+        </article>
+
+         <!-- ACTIVITY 3 -->
+        <article class="activity-card">
+          <p>ACTIVITY 4</p>
+          <a class="download-button"
+             href="sept 22.zip"
+             download>
+            <span>📦</span> Download ZIP
+          </a>
+        </article>
+
+      </div>
+
+     
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-heart">♡</div>
+      <p>Made with love and a little bit of blue magic ✨</p>
+      <p class="copyright">
+        © <span id="year"></span> Richelle. All rights reserved.
+      </p>
+    </footer>
+
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
